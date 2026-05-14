@@ -1,0 +1,13 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "installCommand": "yarn install --frozen-lockfile",
+  "buildCommand": "NODE_OPTIONS=--openssl-legacy-provider yarn build",
+  "devCommand": "yarn dev",
+  "outputDirectory": "build",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}

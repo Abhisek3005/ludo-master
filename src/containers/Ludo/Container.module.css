@@ -1,0 +1,98 @@
+.Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+}
+
+.GameContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.Board {
+  border: 1px solid #CCCCCC;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.PlayerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.GameConfiguration {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 980px;
+  padding: 20px;
+  gap: 14px;
+  box-sizing: border-box;
+}
+
+.ConfigSection {
+  border: 1px solid #dddddd;
+  background: #fafafa;
+  padding: 14px;
+}
+
+.ConfigTitle {
+  margin: 0 0 12px 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #444444;
+}
+
+.ButtonRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.JoinRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.Button {
+  font-size: 16px;
+  padding: 10px 12px;
+  color: #555555;
+  font-family: Arial, sans-serif;
+  border: 1px solid #999999;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+.Button:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.Input {
+  font-size: 15px;
+  padding: 10px;
+  color: #333333;
+  min-width: 240px;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+}
+
+.HelpText {
+  margin: 10px 0 0 0;
+  font-size: 13px;
+  color: #666666;
+}
+
+.ErrorText {
+  margin: 10px 0 0 0;
+  font-size: 13px;
+  color: #aa0000;
+}
